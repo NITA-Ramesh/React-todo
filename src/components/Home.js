@@ -11,6 +11,10 @@ const Home = () => {
         return localData ? JSON.parse(localData) : [];
       });
       const AddTodo = (value) =>{
+        if(!value){
+            alert('Please enter a value');
+            return;
+        }
         setTodo([...todos,
              {id: Math.floor(Math.random() * 100) + 1 ,
              title: value}])
