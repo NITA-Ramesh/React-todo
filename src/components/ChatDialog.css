@@ -1,0 +1,23 @@
+.icon-container {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .rounded {
+    border-radius: 50%;
+    background-color: rgb(255, 192, 195);
+  }
+  
+  .rectangular {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #333;
+  }
+  
